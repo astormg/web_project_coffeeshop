@@ -6,6 +6,29 @@
   line-height: 20px;
 }
 
+/* Estilos para diferentes pesos da fonte Inter */
+.fonte-inter-regular {
+  font-weight: 400;
+}
+
+.fonte-inter-medio {
+  font-weight: 500;
+}
+
+.fonte-inter-negrito {
+  font-weight: 700;
+}
+
+/* Estilos para a fonte Noto Serif */
+.fonte-noto-serif {
+  font-family: "Noto Serif", "Times New Roman", serif;
+}
+
+/* Estilos específicos para o estilo itálico da Noto Serif */
+.fonte-noto-serif-italico {
+  font-style: italic;
+}
+
 @media (min-width: 1600px) {
   .page {
     width: 100%;
