@@ -53,19 +53,16 @@
 }
 
 .header__title {
+  margin: 0;
   margin-top: 183px;
   margin-left: 80px;
   max-width: 709px;
-}
-
-.header__title h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
-  margin: 0;
 }
 
 .header__title span {
@@ -81,9 +78,6 @@
   margin-top: 0;
   margin-left: 80px;
   max-width: 683px;
-}
-
-.header__description p {
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
