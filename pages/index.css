@@ -75,7 +75,7 @@
 }
 
 .header__description {
-  margin-top: 0;
+  margin-top: 28px;
   margin-left: 80px;
   max-width: 683px;
   font-family: "Noto Serif";
@@ -86,22 +86,19 @@
 }
 
 .header__image {
-  width: 646px;
-  height: 568px;
+  position: absolute;
   top: 124px;
   right: 5px;
-  position: absolute;
-  background-image: url("../images/inside_coffee_shop.png");
-  background-size: contain;
 }
 
 .header__footer {
   margin: auto 80px 40px 80px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-.header__footer p {
+.header__paragraph {
   margin: 0;
   font-family: "Inter";
   font-style: normal;
@@ -109,10 +106,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-}
-
-.header__footer div {
-  margin-top: auto;
 }
 
 .recipes {
