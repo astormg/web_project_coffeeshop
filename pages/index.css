@@ -108,6 +108,12 @@
   color: #838383;
 }
 
+.header__paragraph:last-of-type {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+}
+
 .recipes {
   height: 100vh;
   background-color: #0a2850;
