@@ -178,6 +178,25 @@
   color: #ffffff;
 }
 
+.reservation {
+  height: 100vh;
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reservation__title {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.reservation__form {
+}
+
 @media (min-width: 1600px) {
   .page {
     width: 100%;
