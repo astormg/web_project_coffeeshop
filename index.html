@@ -49,7 +49,7 @@
         <img
           class="header__image"
           src="./images/inside_coffee_shop.png"
-          alt="Coffe Shop"
+          alt="Coffee Shop"
           width="646"
           height="568"
         />
@@ -101,7 +101,43 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <form class="reservation__form"></form>
+          <form class="reservation__form form">
+            <fieldset class="form__item form__fieldset">
+              <label for="name" class="form__item form__label">Nome *</label>
+              <input type="text" id="name" class="form__item form__input" />
+            </fieldset>
+            <fieldset class="form__item form__fieldset">
+              <label for="number" class="form__item form__label">
+                Número de convidados *
+              </label>
+              <input type="number" id="number" class="form__item form__input" />
+            </fieldset>
+            <fieldset class="form__item form__fieldset">
+              <label for="data" class="form__item form__label">
+                Data e hora *
+              </label>
+              <input type="date" id="data" class="form__item form__input" />
+            </fieldset>
+            <fieldset class="form__item form__fieldset">
+              <label for="email" class="form__item form__label">
+                Seu e-mail *
+              </label>
+              <input type="email" id="email" class="form__item form__input" />
+            </fieldset>
+            <fieldset class="form__item form__fieldset">
+              <button class="form__item form__button">Reservar uma mesa</button>
+            </fieldset>
+            <fieldset class="form__item form__fieldset">
+              <label for="chkbox" class="form__item form__label">
+                Eu concordo com os termos de uso
+              </label>
+              <input
+                type="checkbox"
+                id="chkbox"
+                class="form__item form__input"
+              />
+            </fieldset>
+          </form>
         </section>
       </main>
       <footer class="footer"></footer>
