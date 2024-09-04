@@ -247,7 +247,7 @@ input::placeholder {
   color: #838383;
 }
 
-.form__fieldset__checkbox {
+.form__fieldset-checkbox {
   display: flex;
   flex-direction: row;
   justify-content: center;
