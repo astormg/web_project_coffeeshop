@@ -29,13 +29,13 @@
             alt="Logo Dark"
           />
           <ul class="nav__links">
-            <li class="nav__link">
-              <a href="#recipes">Receitas</a>
+            <li>
+              <a href="#recipes" class="nav__link">Receitas</a>
             </li>
             <li class="nav__link">
-              <a href="#reservation">Reservar uma mesa</a>
+              <a href="#reservation" class="nav__link">Reservar uma mesa</a>
             </li>
-            <li class="nav__link"><a href="#">Contatos</a></li>
+            <li><a href="#contatos" class="nav__link">Contatos</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -158,7 +158,38 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contatos">
+        <div class="footer__content">
+          <div class="footer__circle"></div>
+          <img
+            src="/images/logo_coffeeshop_light.svg"
+            alt="Tripleten"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <p class="footer__social-heading">Mídia social</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="Facebook"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="Instagram"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Astor Almeida</p>
+      </footer>
     </div>
   </body>
 </html>

@@ -19,13 +19,17 @@
   display: flex;
   justify-content: space-between;
   column-gap: 20px;
+  list-style-type: none;
 }
 
 .nav__link {
-  list-style-type: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
 }
