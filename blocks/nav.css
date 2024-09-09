@@ -23,6 +23,8 @@
 }
 
 .nav__link {
+  text-decoration: none;
+  color: #000000;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
